@@ -1,23 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>SKJAALGIS</title>
-    <script src="script/main.js"></script>
+    <script src="main.js"></script>
     <link rel="Stylesheet" href="./Styling.css">
+    <script src="https://kit.fontawesome.com/89f0732295.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="hei">
-        <div class="på">
-            <h1 class="large_title">Halla</h1>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="bilder"></a>
+            </div>
+            <ul class="nav-area">
+                <li><a onclick="home()" href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-circle-info"></i> About</a></li>
+                <li><a href="#"><i class="fa-solid fa-handshake-angle"></i> Services</a></li>
+                <li><a href="#"><i class="fa-solid fa-book"></i> Portfolio</a></li>
+                <li><a href="#"><i class="fa-solid fa-envelopes-bulk"></i> Contact</a></li>
+            </ul>
         </div>
-        <div class="deg">
-            <p>Hva skjer</p>
+        <div class="wtc">
+            <div class="welcome-text">
+                <h1>Skjalg sin Spotify</h1>
+                <a onclick="change_page()" href="#">PLAY</a>
+            </div>
         </div>
-    </div>
+    </header>
 </body>
-
 
 
 </html>
