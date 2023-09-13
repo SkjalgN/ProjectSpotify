@@ -27,6 +27,10 @@ Here's some key features:
 * A playlist page
 * A contact page
 
+  <a>
+    <img src="images/spotifyscreen.png" alt="Logo">
+  </a>
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
